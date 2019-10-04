@@ -6,21 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd33024-6ebd-4948-8714-8ec98dd4ff75" name="Default Changelist" comment="图书在线项目代码更新，改用监听器实现全局数据共享、统一处理请求地址">
+    <list default="true" id="2dd33024-6ebd-4948-8714-8ec98dd4ff75" name="Default Changelist" comment="图书在线项目代码更新，改用监听器实现全局数据共享">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/servlet/BookDetailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/BookDetailServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LoginPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LoginPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/com/bo/servlet/UserPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/UserPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/web/book_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/book_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/web/logout.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/web/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,12 +60,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/book-online/web" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaweb\web-dev\book-online\web\images" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bo.controller" />
     </key>
@@ -220,6 +218,9 @@
       <workItem from="1569501226654" duration="13538000" />
       <workItem from="1569590882408" duration="400000" />
       <workItem from="1569591313713" duration="10766000" />
+      <workItem from="1570109430011" duration="3482000" />
+      <workItem from="1570196152004" duration="71000" />
+      <workItem from="1570197732225" duration="6433000" />
     </task>
     <task id="LOCAL-00001" summary="web-dev项目初始化两个模块：quickstart和book-online">
       <created>1569502761363</created>
@@ -263,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569594424118</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="图书在线项目代码更新，改用监听器实现全局数据共享、统一处理请求地址">
+      <created>1570203493424</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570203493424</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +297,20 @@
     <MESSAGE value="book-online模块完成登录、首页、个人中心、书籍详情页面的后台代码和页面代码" />
     <MESSAGE value="MockHttp代码补推" />
     <MESSAGE value="更新代码注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新代码注释" />
+    <MESSAGE value="图书在线项目代码更新，改用监听器实现全局数据共享、统一处理请求地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="图书在线项目代码更新，改用监听器实现全局数据共享、统一处理请求地址" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="web-dev" type="b2602c69:ProjectViewProjectNode" />
+        <item name="book-online" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="web-dev" type="b2602c69:ProjectViewProjectNode" />
+        <item name="quickstart" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
