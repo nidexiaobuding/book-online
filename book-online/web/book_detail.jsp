@@ -99,9 +99,9 @@
             </div>
         </div>
         <div class="col-4">
-            <h3>热门标签</h3>
+            <h3>书店推荐</h3>
             <hr>
-            <img src="${pageContext.request.contextPath}/images/right.png" alt="">
+            <img src="${pageContext.request.contextPath}/images/right1.jpg" alt="">
         </div>
     </div>
 

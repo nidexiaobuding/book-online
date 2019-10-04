@@ -9,10 +9,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * @author mq_xu
+ * @author 邵琪
  * @ClassName LogoutController
  * @Description 注销登录
- * @Date 2019/9/26
+ * @Date 2019/10/3
  * @Version 1.0
  **/
 @WebServlet(urlPatterns = "/logout")

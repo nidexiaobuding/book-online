@@ -12,10 +12,10 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * @author mq_xu
+ * @author 邵琪
  * @ClassName BookDetailController
  * @Description 图书详情页面
- * @Date 2019/9/26
+ * @Date 2019/10/3
  * @Version 1.0
  **/
 @WebServlet(urlPatterns = "/detail/*")

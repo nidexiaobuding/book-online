@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>首页</title>
+    <title>在线书屋</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" type="text/css">
     <style type="text/css">
         h2, h3 {
@@ -80,8 +80,8 @@
 
 <%--搜索区--%>
 <div id="search">
-    <h2>读书时刻</h2>
-    <input type="text" placeholder="书名、作者、ISBN" class="search-input">
+    <h2>搜索一下</h2>
+    <input type="text" placeholder="书名、作者" class="search-input">
     <div class="search-btn">
         <img src="images/search.png" alt="">
     </div>
@@ -115,25 +115,18 @@
             </div>
         </div>
         <div class="col-4">
-            <h3>热门标签</h3>
+            <h3>书店推荐</h3>
             <hr>
-            <img src="images/right.png" alt="">
+            <img src="images/right1.jpg" alt="">
         </div>
     </div>
 
     <footer>
         <ul>
-            <li>@2015-2019</li>
-            <li>niit.edu.cn,</li>
-            <li>all rights reserved</li>
+
             <li>南工院计算机学院</li>
         </ul>
-        <ul>
-            <li>联系我们</li>
-            <li>帮助中心</li>
-            <li>法律声明</li>
-            <li>移动合作</li>
-        </ul>
+
     </footer>
 </div>
 </body>

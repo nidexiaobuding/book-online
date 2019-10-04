@@ -1,10 +1,10 @@
 package com.bo.entity;
 
 /**
- * @author mq_xu
+ * @author 邵琪
  * @ClassName Book
  * @Description 图书实体类
- * @Date 2019/9/23
+ * @Date 2019/10/3
  * @Version 1.0
  **/
 public class Book {

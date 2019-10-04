@@ -123,13 +123,15 @@
 <%--浏览区域--%>
 <div class="explore">
     <ul class="nav">
-        <li>首页</li>
-        <li>浏览发现</li>
-        <li>话题广场</li>
-        <li>我的豆瓣</li>
+
+
+        <li>热门话题</li>
+        <li>我的发现</li>
+        <li>我的关注</li>
+        <li>我的粉丝</li>
     </ul>
     <label>
-        <input type="text" placeholder="搜索你感兴趣的内容和人" class="search-input">
+        <input type="text" placeholder="搜索你感兴趣的内容或人" class="search-input">
     </label>
 </div>
 <br>
@@ -148,23 +150,27 @@
                 <ul class="nav">
                     <li>我的日记</li>
                 </ul>
-                <p>在豆瓣上写日记，记录自己的生活、想法。</p>
+                <p>在豆瓣上写日记，记录自己的生活、想法</p>
             </div>
             <div class="item">
                 <ul class="nav">
-                    <li>我的相册</li>
+                    <li>我的日常</li>
                 </ul>
-                <p>可以有自己的相册来存放照片了。</p>
+                <img src="images/aa.jpg" alt="" class="profile">
+                <img src="images/bb.jpg" alt="" class="profile">
+                <img src="images/cc.jpg" alt="" class="profile">
             </div>
             <div class="item">
                 <ul class="nav">
-                    <li>我读</li>
+                    <li>最近在读</li>
                 </ul>
-                <p>5本想读</p>
+                <img src="images/2.png" alt="" class="profile">
+                <img src="images/3.jpg" alt="" class="profile">
+                <img src="images/4.jpg" alt="" class="profile">
             </div>
             <div class="item">
                 <ul class="nav">
-                    <li>留言板</li>
+                    <li>我的留言板</li>
                 </ul>
                 <label>
                     <textarea cols="80" rows="5"></textarea>
@@ -181,39 +187,21 @@
                 <div class="top">
                     <img src="images/${user.avatar}" alt="">
                     <div>
-                        <p>常居：${user.address}</p>
+                        <p>常居地：${user.address}</p>
                         <p>账号：${user.account}</p>
                         <p>${user.joinDate}加入</p>
                     </div>
                 </div>
                 <br>
-                <p>${user.nickname}</p>
+
+                    <ul class="nav">
+                        <li>${user.nickname}的详情页</li>
+                    </ul>
+
+
             </div>
             <br>
-            <div class="item">
-                <ul class="nav">
-                    <li>我的广播· · · · · · (全部)</li>
-                </ul>
-                <br>
-                <div class="read">
-                    <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
-                    </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
-                </div>
-                <div class="read">
-                    <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
-                    </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
-                </div>
-                <div class="read">
-                    <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
-                    </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>

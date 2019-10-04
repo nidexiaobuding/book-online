@@ -9,22 +9,22 @@
         <a href="${pageContext.request.contextPath}/index">首页</a>
     </li>
     <li>
-        <a href="#">读书</a>
+        <a href="#">热销</a>
     </li>
     <li>
-        <a href="#">音乐</a>
+        <a href="#">文学</a>
     </li>
     <li>
-        <a href="#">小组</a>
+        <a href="#">小说</a>
     </li>
     <li>
-        <a href="#">同城</a>
+        <a href="#">散文</a>
     </li>
     <li>
-        <a href="#">FM</a>
+        <a href="#">少儿</a>
     </li>
     <li>
-        <a href="#">时间</a>
+        <a href="#">教育</a>
     </li>
     <li>
         <a href="#">更多</a>

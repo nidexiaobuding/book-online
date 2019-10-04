@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>用户登录</title>
+    <title>在线书屋</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <style type="text/css">
         /*iconfont图标，第三方登录用*/
@@ -26,9 +26,9 @@
         }
 
         body {
-            background-image: url("images/bg.jpg");
+            background-image: url("images/bg1.jpg");
             background-size: cover;
-            background-color: rgb(124, 83, 130);
+
             background-blend-mode: luminosity;
         }
 
@@ -54,14 +54,10 @@
             padding-bottom: 5px;
         }
 
-        .default {
-            color: #ddd;
-            border-bottom: 1px solid #ddd;
-        }
 
         .active {
-            color: rgb(145, 101, 144);
-            border-bottom: 1px solid rgb(145, 101, 144);
+            color: rgb(2236, 112, 99);
+            border-bottom: 1px solid rgb(236, 112, 99);
         }
 
         /*登陆表单样式*/
@@ -102,7 +98,7 @@
             border: none;
             outline: none;
             border-radius: 3px;
-            background-color: rgb(145, 101, 144);
+            background-color: rgb(236, 112, 99);
             color: #fff;
             box-shadow: 2px 5px 10px #aaa;
         }
@@ -117,14 +113,14 @@
 
         /*线条样式*/
         .line {
-            border-bottom: 1px solid #9b9b9b;
+            border-bottom: 1px solid #F5B7B1  ;
             flex: 0 0 33%;
         }
 
         /*第三方登录文字样式*/
         .login-3rd {
             flex: 0 0 30%;
-            color: #9b9b9b;
+            color: #F5B7B1  ;
             font-size: 11px;
             text-align: center;
         }
@@ -144,25 +140,21 @@
     </style>
 </head>
 <body>
-<div id="top">
-    <a href="/home">
-        <h2>在线书屋</h2>
-    </a>
-</div>
+
 <div class="form-wrap">
     <form action="/login.do" method="post" class="login-box">
         <div class="sign-box">
-            <h3 class="default">短信登录/注册</h3>
-            <h3 class="active">密码登录</h3>
+
+            <h3 class="active">账号登录</h3>
         </div>
         <div>
             <label>
-                <input type="text" name="account" class="input-box" placeholder="手机号/邮箱">
+                <input type="text" name="account" class="input-box" placeholder="请输入您的邮箱">
             </label>
         </div>
         <div>
             <label>
-                <input type="password" name="password" class="input-box" placeholder="密码">
+                <input type="password" name="password" class="input-box" placeholder="请输入您的密码">
             </label>
         </div>
         <div>

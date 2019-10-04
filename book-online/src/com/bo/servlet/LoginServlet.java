@@ -17,10 +17,10 @@ import java.io.PrintWriter;
 import java.util.List;
 
 /**
- * @author mq_xu
+ * @author 邵琪
  * @ClassName LoginController
  * @Description 拦截/login.do请求，获得表单传递的参数，进行登录功能验证
- * @Date 2019/9/26
+ * @Date 2019/10/3
  * @Version 1.0
  **/
 @WebServlet(urlPatterns = "/login.do")

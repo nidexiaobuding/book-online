@@ -4,8 +4,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author mqxu
- * @date 2019.9.20
+ * @author 邵琪
+ * @date 2019/10/3
  * MD5加密工具类
  */
 public class Md5Util {

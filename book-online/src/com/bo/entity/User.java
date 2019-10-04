@@ -3,10 +3,10 @@ package com.bo.entity;
 import java.time.LocalDate;
 
 /**
- * @author mq_xu
+ * @author 邵琪
  * @ClassName User
  * @Description 用户实体类
- * @Date 2019/9/23
+ * @Date 2019/10/3
  * @Version 1.0
  **/
 public class User {

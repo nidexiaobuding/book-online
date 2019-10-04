@@ -8,10 +8,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author mq_xu
+ * @author 邵琪
  * @ClassName LoginPageController
  * @Description 登录页面url转发
- * @Date 2019/9/26
+ * @Date 2019/10/3
  * @Version 1.0
  **/
 @WebServlet(urlPatterns = "/login")
