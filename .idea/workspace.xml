@@ -6,10 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd33024-6ebd-4948-8714-8ec98dd4ff75" name="Default Changelist" comment="图书在线项目代码更新，改用监听器实现全局数据共享">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+    <list default="true" id="2dd33024-6ebd-4948-8714-8ec98dd4ff75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +38,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
@@ -66,7 +70,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
@@ -220,7 +224,7 @@
       <workItem from="1569591313713" duration="10766000" />
       <workItem from="1570109430011" duration="3482000" />
       <workItem from="1570196152004" duration="71000" />
-      <workItem from="1570197732225" duration="6433000" />
+      <workItem from="1570197732225" duration="6756000" />
     </task>
     <task id="LOCAL-00001" summary="web-dev项目初始化两个模块：quickstart和book-online">
       <created>1569502761363</created>
@@ -271,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570203493424</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="图书在线项目代码更新，改用监听器实现全局数据共享">
+      <created>1570204314669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570204314669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +309,8 @@
     <MESSAGE value="MockHttp代码补推" />
     <MESSAGE value="更新代码注释" />
     <MESSAGE value="图书在线项目代码更新，改用监听器实现全局数据共享、统一处理请求地址" />
-    <option name="LAST_COMMIT_MESSAGE" value="图书在线项目代码更新，改用监听器实现全局数据共享、统一处理请求地址" />
+    <MESSAGE value="图书在线项目代码更新，改用监听器实现全局数据共享" />
+    <option name="LAST_COMMIT_MESSAGE" value="图书在线项目代码更新，改用监听器实现全局数据共享" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
